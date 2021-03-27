@@ -1,9 +1,9 @@
 hi clear
 syntax reset
-let g:colors_name = "rose-pine-dark"
-set background=dark
+let g:colors_name = "rose-pine-light"
+set background=light
 set t_Co=256
-hi Normal guifg=#e0def4 ctermbg=NONE guibg=NONE gui=NONE
+hi Normal guifg=#26233a ctermbg=NONE guibg=NONE gui=NONE
 
 hi ErrorMsg guifg=#eb6f92 guibg=NONE
 hi WarningMsg guifg=#eb6f92 guibg=NONE
@@ -32,7 +32,7 @@ hi Title guifg=#f6c177 guibg=NONE
 hi PreCondit guifg=#f6c177 guibg=NONE
 hi Debug guifg=#f6c177 guibg=NONE
 hi SpecialChar guifg=#f6c177 guibg=NONE
-hi Conditional guifg=#f6c177 guibg=NONE
+hi Conditional guifg=#f6c177 guibg=NONE gui=italic cterm=italic
 hi Todo guifg=#f6c177 guibg=NONE
 hi Special guifg=#f6c177 guibg=NONE
 hi Label guifg=#f6c177 guibg=NONE
@@ -45,7 +45,7 @@ hi MatchParen guifg=#f6c177 guibg=NONE
 hi DiffChange guifg=#f6c177 guibg=NONE
 hi GitGutterChange guifg=#f6c177 guibg=NONE
 hi cssColor guifg=#f6c177 guibg=NONE
-hi Folded guibg=#26233a guifg=#f6c177
+hi Folded guibg=#706e86 guifg=#f6c177
 hi FoldColumn guibg=NONE ctermbg=NONE guifg=#f6c177
 hi Macro guifg=#c4a7e7 guibg=NONE
 hi Directory guifg=#c4a7e7 guibg=NONE
@@ -57,19 +57,19 @@ hi cssClassName guifg=#c4a7e7 guibg=NONE
 hi cssClassNameDot guifg=#c4a7e7 guibg=NONE
 hi Function guifg=#c4a7e7 guibg=NONE
 hi String guifg=#ebbcba guibg=NONE
-hi Statement guifg=#ebbcba guibg=NONE
+hi Statement guifg=#ebbcba guibg=NONE gui=italic cterm=italic
 hi Operator guifg=#ebbcba guibg=NONE
 hi cssAttr guifg=#ebbcba guibg=NONE
 
-hi SignColumn guifg=#eb6f92 guibg=NONE
+hi SignColumn guibg=NONE
 hi NonText guifg=#26233a guibg=NONE
-hi Whitespace gui=NONE guifg=#26233a guibg=NONE
-hi SpecialComment guifg=#26233a gui=italic guibg=#191724
-hi StatusLineNC gui=NONE guibg=#31748f guifg=#e0def4
+hi Whitespace gui=NONE guifg=#e0def4 guibg=NONE
+hi SpecialComment guifg=#26233a gui=italic guibg=#e0def4
+hi StatusLineNC gui=NONE guibg=#31748f guifg=#191724
 hi Search guibg=#31748f guifg=NONE
-hi Title guifg=#e0def4
-hi Pmenu guifg=#e0def4 guibg=#706e86
-hi StatusLine gui=bold guifg=#e0def4 guibg=#706e86
+hi Title guifg=#191724
+hi Pmenu guifg=#191724 guibg=#706e86
+hi StatusLine gui=bold guifg=#191724 guibg=#706e86
 hi Comment guifg=#706e86 gui=italic
 hi CursorLine guibg=#706e86
 hi TabLineFill gui=NONE guibg=#706e86
