@@ -23,7 +23,7 @@ This is the rosé pine colorscheme turned into a dark and light vim colorscheme 
 
 ![Rosé Pine Dark](rose-pine-dark.png)
 
-Rosé Pine Dark theme on sample rust code
+Rosé Pine Dark theme on sample rust code with the [Victor Mono Font](https://github.com/rubjo/victor-mono)
 
 ![Rosé Pine Light](rose-pine-light.png)
 
