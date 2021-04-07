@@ -30,7 +30,7 @@ hi cssIncludeKeyword guifg=#9ccfd8 guibg=NONE
 hi Keyword guifg=#9ccfd8 guibg=NONE
 hi op_lv16 guifg=#9ccfd8 guibg=NONE
 hi lv16c guifg=#9ccfd8 guibg=NONE
-hi Conceal guifg=#9ccfd8 guibg=NON
+hi Conceal guifg=#9ccfd8 guibg=NONE
 hi Number guifg=#31748f guibg=NONE
 hi IncSearch guifg=#f6c177 guibg=NONE
 hi Title guifg=#f6c177 guibg=NONE
