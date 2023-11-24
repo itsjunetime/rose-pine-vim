@@ -74,12 +74,12 @@ hi SpecialComment guifg=#26233a gui=italic guibg=#191724
 hi StatusLineNC gui=NONE guibg=#31748f guifg=#e0def4
 hi Search guibg=#31748f guifg=NONE
 hi Title guifg=#e0def4
-hi Pmenu guifg=#e0def4 guibg=#706e86
-hi StatusLine gui=bold guifg=#e0def4 guibg=#706e86
-hi Comment guifg=#706e86 gui=italic
-hi CursorLine guibg=#706e86
-hi TabLineFill gui=NONE guibg=#706e86
-hi VertSplit gui=NONE guifg=#706e86 guibg=NONE
-hi Visual gui=NONE guibg=#706e86
-hi TabLine guifg=#5045c1 guibg=#706e86 gui=NONE
+hi Pmenu guifg=#e0def4 guibg=#6e6a86
+hi StatusLine gui=bold guifg=#e0def4 guibg=#908caa
+hi Comment guifg=#908caa gui=italic
+hi CursorLine guibg=#6e6a86
+hi TabLineFill gui=NONE guibg=#908caa
+hi VertSplit gui=NONE guifg=#908caa guibg=NONE
+hi Visual gui=NONE guibg=#403d52
+hi TabLine guifg=#5045c1 guibg=#908caa gui=NONE
 hi LineNr guifg=#5045c1 guibg=NONE
